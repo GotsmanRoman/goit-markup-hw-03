@@ -357,12 +357,12 @@ h2 {
   margin-top: 42px;
 }
 .projects-list-item {
-  box-sizing: border-box;
-  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-
+}
+.border-div {
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 .projects-list-item:hover {
   box-shadow: 0px 0px 3px var(--blue-color);
@@ -376,11 +376,11 @@ h2 {
 .projects-list-item a,
 .projects-list-item img {
   display: block;
-  width: 100%;
 }
 .project-list-item-name {
-  margin-top: 20px;
-  padding: 0 24px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 
   font-weight: 700;
   font-size: 18px;
