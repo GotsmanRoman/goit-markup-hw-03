@@ -164,12 +164,14 @@ h1 {
 /* header section end */
 
 /* main section start */
+.features {
+  padding-bottom: 0;
+}
 .features h2 {
   text-align: center;
 }
 .features-list {
   display: flex;
-  margin-bottom: 90px;
 }
 .features-list-item {
   width: 270px;
@@ -197,6 +199,9 @@ h2 {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+}
+.job h2 {
+  text-align: center;
 }
 .job-list {
   display: flex;
@@ -247,10 +252,10 @@ h2 {
 .team-list-item a {
   display: block;
 }
+.team-list-item-description {
+  padding: 30px 5px; /* додадковий відступ всередені картки для імені та посади */
+}
 .team-list-item h3 {
-  margin-top: 30px;
-  padding: 0 5px; /* додадковий відступ всередені картки для імені та посади */
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -259,9 +264,6 @@ h2 {
 }
 .team-list-item p {
   margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 0 5px; /* додадковий відступ всередені картки для імені та посади */
-
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -311,9 +313,6 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
 }
-.filter-list-item {
-  margin-bottom: 8px;
-}
 .filter-list-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -354,7 +353,7 @@ h2 {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 42px;
+  margin-top: 50px;
 }
 .projects-list-item {
   margin-right: 30px;
@@ -364,6 +363,7 @@ h2 {
 .border-div {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding: 20px 24px;
 }
 .projects-list-item:hover {
   box-shadow: 0px 0px 3px var(--blue-color);
@@ -379,10 +379,6 @@ h2 {
   display: block;
 }
 .project-list-item-name {
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -391,9 +387,6 @@ h2 {
 }
 .project-list-item-category {
   margin-top: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
 
   font-size: 16px;
   line-height: 1.88;
